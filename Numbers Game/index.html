@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Numbers Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1 class="heading">Number Game</h1>
+            <p class="phrase">A simple numbers game to test your iQ,<br> how well can you outsmart a computer?</p>
+                <button class="info-btn">Rules !</button>
+        </div>
+        <div class="score-board">
+            <div class="player-side">
+                <p class="player-name">Player Score</p>
+                <h3><span class="player-score">00</span></h3>
+            </div>
+            <div class="comp-side">
+                <p class="comp-name">Computer Score</p>
+                <h3><span class="comp-score">00</span></h3>
+            </div>
+        </div>
+        <div class="input">
+            <p class="text">Guess a Number-Count: <span class="count">00</span></p>
+            <input type="number" class="text-input"  placeholder="enter a number between 0-9">
+            <button class="guess-btn">Go!</button>
+        </div>
+        <div class="guess-board">
+            <div class="player-results">
+                <p class="player-guess">Player's guess</p>
+                <h2><span class="player-number">00</span></h2>
+            </div>
+            <div class="comp-results">
+                <p class="comp-guess">computer's guess</p>
+                <h2><span class="comp-number">00</span></h2>
+            </div>
+        </div>
+        <div class="final">
+            <p class="final-say">Ready?</p>
+            <div class="btns-container">
+                <button class="again-btn" id="refresh">Restart</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
